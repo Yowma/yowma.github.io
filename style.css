@@ -1,0 +1,537 @@
+/*websites size*/
+.wrapper
+{   
+	width: 1340px;
+	margin: 0 auto;
+	
+}
+
+/*websites body animation*/
+body
+{
+
+   background:#ffffff;
+   animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+/*websites fade animation*/
+@keyframes fadeInAnimation 
+{
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+
+/*websites sliding banner*/		
+.mySlides {display: none;}
+img {vertical-align: middle;}
+* {box-sizing: border-box;}
+
+
+/*websites bullet/dot*/
+.dot 
+{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*websites bullet/dot active color when moving*/
+.active
+{
+  background-color: #717171;
+}
+
+/*websites navigation bar container*/
+.navbar 
+{
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial;
+}
+
+/*websites links inside navbar*/
+.navbar a 
+{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar .current 
+{
+background-color:#9E4244;
+}
+
+/*websites navbar dropdown container*/
+.dropdown 
+{
+  float: left;
+  overflow: hidden;
+}
+
+/*websites navbar dropdown button*/
+.dropdown .dropbtn 
+{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+/*websites navbar dropdown button*/
+.dropdown .dropbtn1 
+{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #9E4244;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+/*websites navbar color changes when hover*/
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+  background-color: #9E4244;
+}
+
+/*websites table navbar hover*/
+th.Highlight:hover 
+{
+	background-color: #9E4244;
+}
+
+/*websites table navbar highlight current*/
+th.current
+{
+	background-color: #9E4244;
+}
+
+/*websites navbar dropdown content (hiddern by default)*/
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*websites navbar links inside dropdown*/
+.dropdown-content a 
+{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*websites navbar dropdown color changer on hover*/
+.dropdown-content a:hover 
+{
+  background-color: #ddd;
+}
+
+/*websites navbar dropdown show dropdown menu on hover*/
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+/*websites pictures container*/
+.piccontainer
+{
+	justify-content: center;
+	width:97%;
+	height:300px;
+	margin:10px;
+
+}
+
+/*websites picture left container*/
+.leftpic
+{   
+    display:flex;
+	justify-content: right;
+	width:34%;
+	height:300px;
+	float:left;
+}
+
+/*websites picture middle container*/
+.middlepic
+{  
+    display:flex;
+	justify-content: center;
+	width:32%;
+	height:300px;
+	float:left;
+	margin:2px;
+
+}
+
+/*websites picture right container*/
+.rightpic
+{   
+    display:flex;
+	justify-content: left;
+	width:33%;
+	height:300px;
+	float:left;
+    margin:2px;
+	
+}
+
+/*websites picture description container*/
+.desccontainer
+{
+	justify-content: center;
+	width:97%;
+	height:120px;
+
+}
+
+/*websites picture left description container*/
+.leftdesc
+{   
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:300px;
+	height:120px;
+	float:left;
+	margin-left:150px;
+}
+
+/*websites picture middle description container*/
+.middledesc
+{  
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:290px;
+	height:120px;
+	float:left;
+	margin-left:69.5px;
+}
+
+/*websites picture right description container*/
+.rightdesc
+{   
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:300px;
+	height:120px;
+	float:right;
+	margin-right:124px;
+	
+}
+
+/*websites pictures middle left container*/
+.leftcenterpic
+{   
+    display:flex;
+	justify-content: right;
+	width:47%;
+	height:300px;
+	float:left;
+	margin-left:10px;
+}
+
+/*websites pictures middle right container*/
+.rightcenterpic
+{   
+    display:flex;
+	justify-content: left;
+	width:47%;
+	height:300px;
+	float:right;
+	margin-left:10px;
+}
+
+/*websites pictures middle container*/
+.centerpic
+{   
+   
+    display:flex;
+	justify-content: center;
+	width:50%;
+	height:300px;
+	float:left;
+	margin-left:25%;
+}
+
+/*websites pictures middleleft description container*/
+.leftcenterdesc
+{   
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:300px;
+	height:120px;
+	float:left;
+	margin-left:25.5%;
+}
+
+/*websites pictures middle center description container*/
+.middlecenterdesc
+{   
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:290px;
+	height:120px;
+	float:left;
+	margin-left:39.5%;
+}
+
+/*websites pictures middle right description container*/
+.rightcenterdesc
+{   
+    border-radius:8px;
+	box-shadow: 10px 25px 50px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+    background-color:white;
+    display:flex;
+	justify-content: center;
+	width:300px;
+	height:120px;
+	float:right;
+	margin-right:23%;
+	
+}
+
+/*websites arrow picture container*/
+.arrowcontainer
+{
+	justify-content: center;
+	width:100px;
+	height:50px;
+	margin:20px auto;
+
+}
+
+/*websites feedback container*/
+.feedbackcontainer
+{
+	justify-content: center;
+	width:97%;
+	height:550px;
+	margin:10px;
+}
+
+/*websites pictures shadow*/
+img.image1
+{
+	border-radius:8px;
+	box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+	border: 10px solid #ffffff;
+}
+	
+/*websites sliding picture wrapper*/	
+.wrap
+{
+    width: 300px;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+/*websites sliding picture container*/
+.container
+{
+	justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px; 
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+	
+}
+
+/*websites sliding picture keyframes*/
+@keyframes slide{
+    0%{ transform: translateX(0);}
+    25%{ transform: translateX(0);}
+    30%{transform: translateX(-100%);}
+    50%{transform: translateX(-100%);}
+    55%{transform: translateX(-200%);}
+    75%{transform: translateX(-200%);}
+    80%{transform: translateX(-300%);}
+    100%{transform: translateX(-300%);}
+}
+
+/*websites feedback sliding container*/
+.cont
+{
+	width: 300px;
+	height: 500px;
+    margin: 20px auto;
+}
+
+/*websites shop sliding container*/
+.contshop
+{
+	width: 300px;
+	height: 330px;
+    margin: 20px auto;
+}
+
+/*websites sendmessage container */
+.sendmessage
+{   
+    background-image: linear-gradient(#ffa69e, #5d4954);
+	width:100%;		
+	color:white;
+}
+
+.sendmessage-round
+{
+
+    background-image: linear-gradient(#ffa69e, #5d4954);
+	width:50%;
+	height:590px;
+	border-radius:5px;
+	padding:20px;
+	margin: 20px auto;
+	font-family:arial;
+	font-size:16px;
+	line-height:10px;
+	
+}
+
+input[type=text]{
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  border:0px !important;
+  outline-style:none;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  outline-style:none;
+}
+
+input[type=button]{
+  width:100%;
+  height: 50px;
+  background-color: #Ecf3ee;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.sendmessage-round input[type=button]:hover
+{
+	cursor: pointer;
+	background: pink;
+	color: #000;
+}
+
+/*websites footer container*/
+.footer-container
+{
+		width:100%;
+		height:300px;
+		background-color:black;
+		font-family:arial;
+		font-size:14px;
+		text-align:center;
+}
+
+/*websites about us footer container*/
+.aboutus-footer
+{
+		width:26%;
+		height:250px;
+		padding:10px 10px;
+		margin: 5px;
+		font-family:arial;
+		font-size:17px;
+		text-align:justify;
+		color:white;
+		float:left;
+}
+
+/*websites contact us footer container*/
+.socmed-footer
+{
+		width:30%;
+		height:250px;
+		padding:10px 10px;
+		margin: 5px;
+		font-family:arial;
+		font-size:17px;
+		text-align:justify;
+		color:white;
+		float:left;
+}
+
+/*websites pages footer container*/
+.pages-footer
+{
+	    width:15%;
+		height:250px;
+		padding:10px 10px;
+		margin: 5px;
+		font-family:arial;
+		font-size:17px;
+		text-align:justify;
+		color:white;
+		float:right;
+		
+}
+
+
+
